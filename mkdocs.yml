@@ -1,3 +1,14 @@
 site_name: Clinical Guidelines
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
